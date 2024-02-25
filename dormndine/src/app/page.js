@@ -4,13 +4,12 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <div>
-      <img id="logo" src="/src/app/img/DormNDineLogo.png"></img>
       <body className={styles.main}>
         <h1>Dorm-N-Dine</h1>
-       
+        <img id="logo" src="/app/img/DormNDineLogo.png" alt="Dorm and Dine logo"/>
         <form class="form">
           <div class="search-bar">
-            <input class="query" type="search" placeholder="Search All Recipes..." style={{ width: '400px', height: '40px', }} />
+            <input class="query" type="search" placeholder="Search All Recipes..." style={{ width: '400px', height: '40px',}} />
             <button class="bar">Search</button>
           </div>
           <br></br>
